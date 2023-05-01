@@ -17,6 +17,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
     "gatsby": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
