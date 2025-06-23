@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "copy-lottie": "cp -R src/static/lottie public/lottie",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -17,14 +18,22 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.14.1",
+    "@types/sanitize-html": "^2.16.0",
     "gatsby": "^5.14.1",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-json": "^5.14.0",
+    "html-react-parser": "^5.2.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sanitize-html": "^2.17.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.17.57",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "gatsby-plugin-sass": "^6.14.0",
+    "sass": "^1.89.1",
     "typescript": "^5.3.3"
   }
 }
